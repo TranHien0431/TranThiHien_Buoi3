@@ -1,0 +1,231 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+
+}
+.navbar-nav .nav-link,
+    .navbar-brand {
+        color: black !important;
+    }
+    
+  
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ .menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ .user-tools {
+    display: flex;
+    align-items: center;
+}
+
+.user-tools a, 
+.user-tools button {
+   
+    margin-right: 10px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.user-tools input[type="text"] {
+    padding: 5px;
+} 
+.product_new h2 {
+    text-align: center; 
+    font-weight: bold; 
+    color: #1d4a1d; 
+    font-family:  'Times New Roman', Times, serif;
+  }
+.product-new h5{
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: bold; 
+    
+}
+.product-new p{
+    font-family:  'Times New Roman', Times, serif;
+    
+    color: rgb(11, 9, 9);
+    
+}
+.product-sale{
+    background-color: rgb(234, 237, 235);
+}
+.product_sale h2 {
+    text-align: center; 
+    font-weight: bold; 
+    color: #b13223; 
+    font-family:  'Times New Roman', Times, serif;
+    margin-top: 20px;
+   
+  }
+  .product-sale h5{
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: bold; 
+    color: brown;
+    
+}
+.product-sale p{
+    font-family:  'Times New Roman', Times, serif;
+    
+    color: rgb(11, 9, 9);
+    
+}
+.post-new h2{
+    text-align: center; 
+    font-weight: bold; 
+    color: #b13223; 
+    font-family:  'Times New Roman', Times, serif;
+    margin-top: 20px;
+   
+
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .product-card {
+    width: 150px; 
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 90px;
+    height: 150px; 
+    object-fit: cover;
+  }
+  
+/*------------------------------------------------------------------------------------*/
+
+/*==== contact section start =======*/
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.side_one {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.side_one h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputBx {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputBx input,
+.inputBx textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputBx i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #555;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.side_two {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.col-1 {
+    display: flex;
+    align-items: center;
+  
+}
